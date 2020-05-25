@@ -8,7 +8,7 @@ const youtube = axios.create({
     part: 'snippet',
     type: 'video',
     maxResults: 5,
-    key: YOUTUBE_API_KEY
+    key: YOUTUBE_API_KEYopen
   }
 })
 
